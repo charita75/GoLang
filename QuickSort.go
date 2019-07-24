@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	slice := generateSlice(4)
+	slice := generateSlice(5)
 	fmt.Println("\n--- Unsorted --- \n\n", slice)
 	quicksort(slice)
 	fmt.Println("\n--- Sorted ---\n\n", slice, "\n")

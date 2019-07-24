@@ -42,7 +42,7 @@ func main() {
 	t := Triangle{base: 10, height: 20}
 	s := Square{length: 5}
 	r := Rectangle{length: 5, width: 10}
-	c := Circle{radius: 10}
+	c := Circle{radius: 5}
 
 	var a Area
 
