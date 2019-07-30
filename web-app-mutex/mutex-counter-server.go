@@ -12,7 +12,7 @@ var counter int
 var mutex = &sync.Mutex{}
 
 func echoString(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "hello")
+	fmt.Fprintf(w, "hello program")
 }
 
 func incrementCounter(w http.ResponseWriter, r *http.Request) {
